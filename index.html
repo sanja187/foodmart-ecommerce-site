@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header">
+        <img src="https://themewagon.github.io/FoodMart/images/logo.png">
+        <div class="searchbar">
+            <select>
+                <option name="All category">All categories</option>
+                <option name="All category">Groceries</option>
+                <option name="All category">Drinks</option>
+                <option name="All category">Chocolates</option>
+            </select>
+            <input class="input" type="text" placeholder="Search for more than 20,000 products">
+            <div class="boot1">
+                <i class="bi bi-search"></i>
+            </div>
+        </div>
+        <div class="cart">
+               <p>For Support<br><strong>+91 9393827292</strong></p>
+             <i id="contact" class="bi bi-person"></i>
+             <i id="heart"class="bi bi-heart"></i>
+             <label for="checkbox" style="padding-left: 15%;">Your Cart ~ <br><big>$1807.02</big> </label><br>
+             <input id="checkbox" type="checkbox">
+        </div>
+    </div><br><br>
+    <div class="menu">
+        <select class="departments">
+                <option name="All category">Shop By Departments</option>
+                <option name="All category">Groceries</option>
+                <option name="All category">Drinks</option>
+                <option name="All category">Chocolates</option>
+        </select>
+        <div class="home">
+            <a>Women</a>
+            <a>Men</a>
+            <a>Kids</a>
+            <a>Accessories</a>
+            <a>Page</a>
+            <a>Brand</a>
+            <a>Sale</a>
+            <a>Blog</a>
+        </div>
+    </div><br>
+        <!-- <div class="img1">
+            <div class="container-fluid">
+              <div class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <big><h1 id="txt2">Heinz Tomato</h1>
+                    <h1 id="txt3">Ketchup</h1></big><br>
+                    <pre id="txt4">Lorem ipsum dolor sit, amet consectetur adipisicing<br> elit. Aperiam expedita fugit, rerum</pre>
+                    <img class="ketchup" src="https://themewagon.github.io/FoodMart/images/product-thumb-2.png">
+                    <button class="button1" value="submit" >SHOP COLLECTION</button>
+                  </div>
+                  <div class="carousel-item active">
+                    <big><h1 id="txt2">Heinz Tomato</h1>
+                    <h1 id="txt3">Ketchup</h1></big><br>
+                    <pre id="txt4">Lorem ipsum dolor sit, amet consectetur adipisicing<br> elit. Aperiam expedita fugit, rerum</pre>
+                    <img class="ketchup" src="https://themewagon.github.io/FoodMart/images/product-thumb-2.png">
+                    <button class="button1" value="submit" >SHOP COLLECTION</button>
+                  </div>
+                  <div class="carousel-item active">
+                    <big><h1 id="txt2">Heinz Tomato</h1>
+                    <h1 id="txt3">Ketchup</h1></big><br>
+                    <pre id="txt4">Lorem ipsum dolor sit, amet consectetur adipisicing<br> elit. Aperiam expedita fugit, rerum</pre>
+                    <img class="ketchup" src="https://themewagon.github.io/FoodMart/images/product-thumb-2.png">
+                    <button class="button1" value="submit" >SHOP COLLECTION</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="inside">
+            <div class="img2"></div>
+            <div class="img3"></div>
+        </div> --> 
+        <div class="conatiner-fluid">
+          <div class="carousel slide"id="carouselExampleIndicators" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="3000">
+                <img class="caro" src="./Images/kenny-eliason-SvhXD3kPSTY-unsplash.jpg">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img class="caro" src="./Images/pexels-caio-64613.jpg">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img class="caro" src="./Images/gemma-c-stpjHJGqZyw-unsplash.jpg">
+              </div>
+            </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        </div>
+    <div class="category-section">
+  <div class="category1 cat">Category</div>
+  <div class="category2 cat">
+    View All Categories
+    <pre> → </pre>
+    <pre>   </pre>
+    <button class="but">❮</button>
+    <pre>   </pre>
+    <button class="but">❯</button>
+  </div>
+</div><br><br>
+<div class="category-slider" id="slider">
+    <div class="category-card">🍎<p>Fruits & Veges</p></div>
+    <div class="category-card">🍞<p>Breads & Sweets</p></div>
+    <div class="category-card">🧴<p>Drinks</p></div>
+    <div class="category-card">🍷<p>Wine</p></div>
+    <div class="category-card">🍗<p>Meat</p></div>
+    <div class="category-card">🧂<p>Spices</p></div>
+    <div class="category-card">🧴<p>Cocktails</p></div>
+    <!-- <div class="category-card">🍷<p>Wine</p></div>
+    <div class="category-card">🍗<p>Meat</p></div>
+    <div class="category-card">🧂<p>Spices</p></div> -->
+  </div><br><br>
+  <div class="category-section">
+  <div class="category1 cat">Newly Arrived Brands</div>
+  <div class="category2 cat">
+    View All Categories
+    <pre> → </pre>
+    <pre>   </pre>
+    <button class="but">❮</button>
+    <pre>   </pre>
+    <button class="but">❯</button>
+  </div>
+</div><br><br><br>
+<div class="category-slider" id="slider">
+    <div class="category-c" id="cc"><img class="images" src="./Images/product-thumb-11.jpg"><p style="font-weight: lighter; color: black;">Amber jar</p><big style="font-weight: lighter; color: black;">Honey best nector you wish to get</big></div>
+    <div class="category-c" id="cc"><img class="images" src="./Images/product-thumb-12.jpg"><p style="font-weight: lighter; color: black;">Amber jar</p><big style="font-weight: lighter; color: black;">Honey best nector you wish to get</big></div>
+    <div class="category-c" id="cc"><img class="images" src="./Images/product-thumb-13.jpg"><p style="font-weight: lighter; color: black;">Amber jar</p><big style="font-weight: lighter; color: black;">Honey best nector you wish to get</big></div>
+    <div class="category-c" id="cc"><img class="images" src="./Images/product-thumb-14.jpg"><p style="font-weight: lighter; color: black;">Amber jar</p><big style="font-weight: lighter; color: black;">Honey best nector you wish to get</big></div>
+    <!-- <div class="category-c" id="cc"><img class="images" src="./Images/product-thumb-11.jpg"><p style="font-weight: lighter;">Amber jar</p><big>Honey best nector you wish to get</big></div>
+    <div class="category-c" id="cc"><img class="images" src="./Images/product-thumb-12.jpg"><p style="font-weight: lighter;">Amber jar</p><big>Honey best nector you wish to get</big></div> -->
+  </div><br><br>
+<div class="category-section">
+  <div class="category1 cat">Trending Products</div>
+  <div class="category2 cat">
+    <pre><a href="#">  ALL  </a></pre>
+    <pre><a href="#">  FRUITS AND VEGES  </a></pre>
+    <pre><a href="#">  JUICES  </a></pre>
+    <!-- <pre> → </pre>
+    <pre>   </pre>
+    <button class="but">❮</button>
+    <pre>   </pre>
+    <button class="but">❯</button> -->
+  </div>
+</div><br><br>
+<div class="category-slider" id="slider">
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-20%</span>
+    <img src="./Images/thumb-cucumber.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-5%</span>
+    <img src="./Images/thumb-bananas.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-15%</span>
+    <img src="./Images/thumb-biscuits.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-30%</span>
+    <img src="./Images/thumb-milk.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount"></span>
+    <img src="./Images/post-thumb-1.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+</div><br><br>
+<div class="category-slider" id="slider">
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount"></span>
+    <img src="./Images/product-thumb-11.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount"></span>
+    <img src="./Images/thumb-milk.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-20%</span>
+    <img src="./Images/product-thumb-14.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-10%</span>
+    <img src="./Images/product-thumb-12.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-30%</span>
+    <img src="./Images/thumb-cucumber.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+</div><br><br><br><br><br><br>
+<div class="id">
+    <div class="id1">
+      <h2 id="text1">Upto 25% Off</h2>
+            <h2 id="text2">Luxa Dark Chocolate</h2>
+            <pre id="text3">Very tasty & creamy vanilla flavour creamy<br> muffins.</pre>
+            <button class="id-button" value="submit" >SHOP NOW</button>
+    </div>
+    <div class="id2">
+      <h2 id="text1">Upto 25% Off</h2>
+            <h2 id="text2">Luxa Dark Chocolate</h2>
+            <pre id="text3">Very tasty & creamy vanilla flavour creamy<br>muffins.</pre>
+            <button class="id-button" value="submit" >SHOP NOW</button>
+    </div>
+</div>
+<div class="category-section">
+  <div class="category1 cat">Best selling products</div>
+  <div class="category2 cat">
+    View All Categories
+    <pre> → </pre>
+    <pre>   </pre>
+    <button class="but">❮</button>
+    <pre>   </pre>
+    <button class="but">❯</button>
+  </div>
+</div><br><br>
+<div class="category-slider" id="slider">
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-20%</span>
+    <img src="./Images/thumb-cucumber.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-5%</span>
+    <img src="./Images/thumb-bananas.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-15%</span>
+    <img src="./Images/thumb-biscuits.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-30%</span>
+    <img src="./Images/thumb-milk.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount"></span>
+    <img src="./Images/product-thumb-13.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+</div><br><br><br><br><br><br>
+<div class="user">
+  <div class="box1"><h1 class="boxinfo">Get 25% Discount<br> on your first <br>purchase</h1><br>
+  <p class="boxmat">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst <br>amet, metus, sit massa posuere maecenas. At tellus ut nunc amet vel <br>egestas.</p>
+  </div>
+  <div class="box2">
+    <label class="name">Name</label><br>
+    <input class="userinput" type="text" placeholder="    Name"><br><br>
+    <label class="name">Email</label><br>
+    <input type="text"  class="userinput" placeholder="    abc@gmail.com"><br><br>
+    <input id="something" class="checkbox" type="checkbox">
+    <label class="name1" for="something">Subscribe to the newsletter</label><br><br><br>
+    <button class="userbutton" href="#">Submit</button>
+  </div>
+</div><br><br>
+<div class="category-section">
+  <div class="category1 cat">Most popular products</div>
+  <div class="category2 cat">
+    View All Categories
+    <pre> → </pre>
+    <pre>   </pre>
+    <button class="but">❮</button>
+    <pre>   </pre>
+    <button class="but">❯</button>
+  </div>
+</div><br><br>
+<div class="category-slider" id="slider">
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-20%</span>
+    <img src="./Images/thumb-cucumber.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-5%</span>
+    <img src="./Images/thumb-bananas.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-15%</span>
+    <img src="./Images/thumb-biscuits.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-30%</span>
+    <img src="./Images/thumb-milk.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount"></span>
+    <img src="./Images/product-thumb-13.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+</div><br>
+<div class="category-section">
+  <div class="category1 cat">Just arrived</div>
+  <div class="category2 cat">
+    View All Categories
+    <pre> → </pre>
+    <pre>   </pre>
+    <button class="but">❮</button>
+    <pre>   </pre>
+    <button class="but">❯</button>
+  </div>
+</div><br><br>
+<div class="category-slider" id="slider">
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-20%</span>
+    <img src="./Images/thumb-cucumber.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-5%</span>
+    <img src="./Images/thumb-bananas.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-15%</span>
+    <img src="./Images/thumb-biscuits.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount">-30%</span>
+    <img src="./Images/thumb-milk.png" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+<div class="product-card">
+  <div class="image-section">
+    <span class="discount"></span>
+    <img src="./Images/product-thumb-13.jpg" alt="Milk Product" />
+    <span class="fav">♡</span>
+  </div>
+
+  <h3>Sunstar Fresh Melon Juice</h3>
+  <div class="unit-rating">
+    <span class="unit">1 UNIT</span>
+    <span class="star">⭐ 4.5</span>
+  </div>
+
+  <div class="price">$18.00</div>
+
+  <div class="qty-cart">
+    <div class="qty-buttons">
+      <button>−</button>
+      <span>1</span>
+      <button>+</button>
+    </div>
+    <button class="add-cart">Add to Cart</button>
+  </div>
+</div>
+</div><br><br>
+<div class="category-section">
+  <div class="category1 cat">Our Recent Blog</div>
+  <div class="category2 cat">
+    Read All Articles
+    <pre> → </pre>
+  </div>
+</div><br><br>
+</div>
+<div class="class">
+  <div class="class1">
+    <div class="forimg1"></div>
+    <div class="forcon1">
+      <pre style="font-size: small;color:darkgrey; margin: 2%;">22 AUG 2021  TIPS & TRICKS</pre>
+      <h2 style="font-size:xx-large;color:rgb(0, 0, 0); margin: 2%;">Top 10 casual look ideas to dress up your kids</h2>
+      <p style="font-size: large;color:darkgrey; margin: 2%;">Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
+    </div>
+  </div>
+  <div class="class2">
+    <div class="forimg2"></div>
+    <div class="forcon2">
+      <pre style="font-size: small;color:darkgrey; margin: 2%;">22 AUG 2021  TRENDING</pre>
+      <h2 style="font-size:xx-large;color:rgb(0, 0, 0); margin: 2%;">Latest trends of wearing street wears supremely</h2>
+      <p style="font-size: large;color:darkgrey; margin: 2%;">Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
+    </div>
+  </div>
+  <div class="class3">
+    <div class="forimg3"></div>
+    <div class="forcon3">
+      <pre style="font-size: small;color:darkgrey; margin: 2%;">22 AUG 2021 INSPIRATION</pre>
+      <h2 style="font-size:xx-large;color:rgb(0, 0, 0); margin: 2%;">10 Different Types of comfortable clothes ideas for women</h2>
+      <p style="font-size: large;color:darkgrey; margin: 2%;">Lorem ipsum dolor sit amet, consectetur adipi elit. Aliquet eleifend viverra enim tincidunt donec quam. A in arcu, hendrerit neque dolor morbi...</p>
+    </div>
+  </div>
+</div><br><br><br>
+<div class="scr"></div><br><br>
+<!-- <div class="category1 cat">Most popular products</div>
+<div class="screen">
+<a href="#" class="done">Blue diamon almonds</a>
+<a href="#" class="done">Angie’s Boomchickapop Corn</a>
+<a href="#" class="done">Salty kettle Corn</a>
+<a href="#" class="done">Chobani Greek Yogurt</a>
+<a href="#" class="done">Sweet Vanilla Yogurt</a>
+<a href="#" class="done">Foster Farms Takeout Crispy wings</a>
+<a href="#" class="done">Warrior Blend Organic</a>
+<a href="#" class="done">Chao Cheese Creamy</a>
+<a href="#" class="done">Chicken meatballs</a>
+<a href="#" class="done">Blue diamon almonds</a>
+<a href="#" class="done">Angie’s Boomchickapop Corn</a>
+<a href="#" class="done">Salty kettle Corn</a>
+<a href="#" class="done">Chobani Greek Yogurt</a>
+<a href="#" class="done">Sweet Vanilla Yogurt</a>
+<a href="#" class="done">Foster Farms Takeout Crispy wings</a>
+<a href="#" class="done">Warrior Blend Organic</a>
+<a href="#" class="done">Chao Cheese Creamy</a>
+<a href="#" class="done">Chicken meatballs</a>
+ </div>  -->
+<div class="foot">
+  <div class="item1">
+    <div class="i1"></div>
+    <div class="i2">
+      <a  class="anchor" href="#">
+      <i class="bi bi-facebook"></i>
+      </a>
+      <a  class="anchor" href="#">
+      <i class="bi bi-twitter"></i>
+      </a>
+      <a  class="anchor" href="#">
+      <i class="bi bi-youtube"></i>
+      </a>
+      <a  class="anchor" href="#">
+      <i class="bi bi-instagram"></i>
+      </a>
+      <a  class="anchor" href="#">
+      <i class="bi bi-amazon"></i>
+      </a>
+    </div>
+  </div>
+  <div class="item2">
+    <div class="i3" style="margin-left: 35%;">
+      <h4 class="sty1">Ultras</h4>
+      <a class="sty2" href="#">About Us</a><br>
+      <a class="sty2" href="#">Conditions</a><br>
+      <a class="sty2" href="#">Our Journals</a><br>
+      <a class="sty2" href="#">Careers</a><br>
+      <a class="sty2" href="#">Affiliate Programme</a><br>
+      <a class="sty2" href="#">Ultras Press</a>
+    </div>
+  </div>
+  <div class="item3">
+    <div class="i3">
+      <h4 class="sty1">Customer Service</h4>
+      <a class="sty2" href="#">FAQ</a><br>
+      <a class="sty2" href="#">Contact</a><br>
+      <a class="sty2" href="#">Privacy Policy</a><br>
+      <a class="sty2" href="#">Returns & Refunds</a><br>
+      <a class="sty2" href="#">Cookie Guidelines</a><br>
+      <a class="sty2" href="#">Delivery Information</a>
+    </div>
+    
+  </div>
+  <div class="item4">
+    <div class="i3">
+      <h4 class="sty1">Customer Service</h4>
+      <a class="sty2" href="#">FAQ</a><br>
+      <a class="sty2" href="#">Contact</a><br>
+      <a class="sty2" href="#">Privacy Policy</a><br>
+      <a class="sty2" href="#">Returns & Refunds</a><br>
+      <a class="sty2" href="#">Cookie Guidelines</a><br>
+      <a class="sty2" href="#">Delivery Information</a>
+    </div>
+    
+  </div>
+  <div class="item5">
+    <div class="i3">
+      <h4 class="sty1">Subscribe Us</h4>
+      <p>Subscribe to our newsletter to get updates about our grand offers.</p>
+      <input class="Email" type="tetx" placeholder="Email Address">
+      <button class="val" value="submit">Subscribe</button>
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
